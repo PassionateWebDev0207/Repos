@@ -9,10 +9,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/styles/variables.scss';
+
 .repos-header {
   width: 100%;
   height: 100%;
   padding: 0 20px;
-  background-color: rgba(black, 0.1);
+  background-color: $clr-primary;
 }
 </style>

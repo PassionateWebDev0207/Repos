@@ -20,9 +20,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/styles/variables.scss';
+
 .el-header {
   height: 60px;
   padding: 0;
+  box-shadow: $box-shadow-normal;
 }
 .el-main {
   height: calc(100vh - 60px);
