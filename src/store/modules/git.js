@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 const baseUrl = 'https://api.github.com/graphql'
-const accessToken = 'Bearer 127506815918f36547cfc2bcbca1fef65e959613'
+const accessToken = 'Bearer 1c3da4fd73a683623aa18558bba7ab0ac691e98a'
 
 const state = () => ({
   loading: false,
